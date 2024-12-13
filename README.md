@@ -49,13 +49,7 @@ cd Screaming-Hawks
     ```bash
     npm install
     ```
-3. Create a `.env` file in the backend directory:
-    ```plaintext
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    PORT=5000
-    ```
-4. Start the server:
+3. Start the server:
     ```bash
     npm start
     ```
