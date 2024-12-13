@@ -3,7 +3,9 @@
 # **Screaming Hawks**
 
 ## **About the Project**
+The Multiroom Compiler is a web-based application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This project is designed to provide a collaborative environment where users can write, compile, and share code across multiple "rooms" in real time.
 
+It combines the functionality of an online compiler with real-time collaboration, making it suitable for coding interviews, hackathons, and group coding sessions.
 
 ---
 
@@ -78,22 +80,6 @@ cd Screaming-Hawks
 1. Open your browser and navigate to `http://localhost:3000` for the frontend.
 2. The backend runs at `http://localhost:5000` for API requests.
 
----
-
-## **API Endpoints**
-Here’s a list of API endpoints used in the application:
-
-### **Authentication**
-- `POST /api/auth/register` – Register a new user
-- `POST /api/auth/login` – User login
-
-### **Entities** (e.g., Products/Posts)
-- `GET /api/products` – Fetch all products
-- `POST /api/products` – Create a new product
-- `PUT /api/products/:id` – Update a product
-- `DELETE /api/products/:id` – Delete a product
-
----
 
 ## **Contributing**
 Contributions are welcome! Please follow these steps:
